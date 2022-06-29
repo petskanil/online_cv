@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal page</title>
+    <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
     <table>
         <tr>
-            <td><img src="images/Profilbilde.jpg" alt="Profile_picture" width="100"></td>
+            <td><img src="images/profilbilde.png" alt="Profile_picture" width="100" class="circular"></td>
             <td>
                 <h1>Petter Skau-Nilsen</h1>
                 <p><em>Master student Cybernetics and Robotics at NTNU</em></p>
@@ -19,12 +20,12 @@
     <hr>
     <h3>School and studies</h3>
     <table>
-        <header>
+        <thead>
             <th>When</th>
             <th>Where</th>
             <th>What</th>
-        </header>
-        <body>
+        </thead>
+        <tbody>
             <tr>
                 <td>2004-2011</td>
                 <td>Klemetsrud barneskole</td>
@@ -45,8 +46,41 @@
                 <td>NTNU</td>
                 <td>Master kybernetikk og Robotikk</td>
             </tr>
-        </body>
+        </tbody>
     </table>
+    <hr>
+    <h3>Work experience</h3>
+    <table>
+        <thead>
+            <th>When</th>
+            <th>Employer</th>
+            <th>Work</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2017-</td>
+                <td>Inspiro AS</td>
+                <td>Custommer service</td>
+            </tr>
+            <tr>
+                <td>2021</td>
+                <td>FFI</td>
+                <td>Summer Internship Dep. autonomous systems</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <h3>Programming languages</h3>
+    <ul>
+        <li>Python</li>
+        <li>C++</li>
+        <li>C</li>
+        <li>MATLAB</li>
+        <li>Golang</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
     <hr>
     <h3><a href="contact_me.html">Contact me</a></h3>
 </body>

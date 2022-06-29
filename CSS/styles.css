@@ -1,0 +1,21 @@
+body {
+    background-color: #B1D0E0;
+}
+
+hr {
+    border-style: none;
+    width: 10%;
+    border-top: 6px dotted #6998AB;
+}
+
+h1 {
+    color: #1A374D;
+}
+
+h3 {
+    color: #1A374D;
+}
+
+.circular {
+    border-radius: 100%;
+}
